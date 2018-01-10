@@ -1,9 +1,80 @@
-h1, h2, li, p {
-	font-family: serif;
+#Title {
+	color: #4549d1;
 }
 
-li, p {
+body {
+	font-family: serif;
+	margin: 0;
+}
+
+header {
+	margin: 0;
+}
+
+header h1 {
+	
+
+}
+
+nav ul {
+	margin: 10px 10px 10px 0px;
+	padding: 0;
+}
+
+
+nav ul li a{
 	color: black;
+}
+
+footer{
+	clear: both;
+}
+
+div.row {
+	clear: both;
+	color: #555;
+}
+
+.title-prop {
+	color: #4549d1;
+	font-size: 20px;
+}
+
+.darkBG {
+	background: #eee;
+	padding: 1px;
+}
+
+.row {
 	
 }
+
+.appendix {
+	float: right;
+}
+
+.col {
+	float: left;
+	margin: 1%;
+	background: black;
+	width: 30%;
+	color: white;
+}
+
+.img-marg {
+	margin: 15px 0;
+}
+
+.myWell {
+	background: #eee;
+	margin: 15px 0;
+	padding: 5px 0;
+	box-shadow: 0 1px 10px #ccc;
+	border-radius: 10px;
+}
+
+.myPanel {
+	box-shadow: 0 1px 10px #eee;
+}
+
 
